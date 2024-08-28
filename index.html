@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LogIn Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Login</h1>
+       <form>
+       <div>
+       <label class="req" id="name">Username:</label>
+       <input type="text" required>
+       </div>
+
+       <div>
+       <label class="req" id="password">Password:</label>
+       <input type="password"required>
+       </div>
+
+       <div class="options">
+        <label>
+            <input type="checkbox"> Remember me
+        </label>
+        <a href="#">Forgot password</a>
+    </div>
+    </form>
+    </div>
 </body>
 </html>

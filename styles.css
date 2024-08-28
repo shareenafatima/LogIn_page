@@ -1,0 +1,45 @@
+body{
+   background-image: url(images/background.jpg);
+   background-position: center 0px;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.container{
+    height: 500px;
+    width: 450px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border: 2px solid white;
+    margin: 100px auto;
+    padding: 52px;
+    padding-top: 2px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.req{
+    color: white;
+    display: flex;
+    margin-left: 15px;
+    font-size: large;
+}
+
+input[type="text"], input[type="password"]{
+    height: 45px;
+    width: 335px;
+    display: flex;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background: transparent;
+    box-sizing: border-box;
+ }
