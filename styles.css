@@ -16,7 +16,7 @@ body{
     padding-top: 2px;
     border-radius: 30px;
     box-sizing: border-box;
-    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    box-shadow: 0 0px 20px rgba(237, 237, 238, 0.37);
 }
 
 h1{
@@ -30,6 +30,7 @@ h1{
     display: flex;
     margin-left: 15px;
     font-size: 20px;
+    
 }
 
 input[type="text"], input[type="password"]{
@@ -42,6 +43,10 @@ input[type="text"], input[type="password"]{
     border: 1px solid white;
     background: transparent;
     box-sizing: border-box;
+    caret-color: #ffd700; 
+    color: white;
+    font-size: large;
+    font-family: monospace;
  }
 
  input:focus{
@@ -93,10 +98,15 @@ button {
     border-radius: 50px;
     color: black;
     cursor: pointer;
-    transition: background-color 1s, color 1s;
+    transition: background-color 1s, color 1s , box-shadow 1s;
 }
 
 button:hover{
     background-color: #ffd700;
     color: white;
+    box-shadow: 0px 0px 25px #ffd700;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
 }
